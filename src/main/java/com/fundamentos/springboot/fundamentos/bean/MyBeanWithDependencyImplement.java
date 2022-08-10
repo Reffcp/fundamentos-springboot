@@ -10,7 +10,7 @@ public class MyBeanWithDependencyImplement implements MyBeanWithDependency{
 
     @Override
     public void printWithDependency() {
-        System.out.println("resultado suma: " + myOperation.sum(10));
+        System.out.println("resultado suma: " + myOperation.sum(15));
         System.out.println("Hoal desde un bean con dependecia");
     }
 }
